@@ -21,22 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Julien Stoeffler/CriteoPublisherSdk'
+  s.homepage         = 'https://criteo.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Julien Stoeffler' => 'j.stoeffler@criteo.com' }
-  s.source           = { :git => 'https://github.com/Julien Stoeffler/CriteoPublisherSdk.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :http => 'http://localhost/criteopubsdk/CriteoPublisherSdk.zip' }
+  # s.social_media_url = 'https://instagram.com/spathrose'
+  s.vendored_frameworks = 'Frameworks/CriteoPublisherSdk-Current/CriteoPublisherSdk.framework'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CriteoPublisherSdk/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CriteoPublisherSdk' => ['CriteoPublisherSdk/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.weak_frameworks = 'WebKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

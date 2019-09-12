@@ -1,6 +1,5 @@
 use_frameworks!
 target 'CriteoPublisherSdk_Tests' do
   pod 'CriteoPublisherSdk', :path => '../'
-  
-  
+
 end

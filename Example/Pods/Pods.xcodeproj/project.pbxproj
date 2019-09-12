@@ -28,22 +28,22 @@
 
 /* Begin PBXFileReference section */
 		0D72B56903406812B4DAAFA1BD1B1DFC /* CriteoPublisherSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CriteoPublisherSdk.modulemap; sourceTree = "<group>"; };
-		179D2D40088AA1E02F93C0F408AE2005 /* CriteoPublisherSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CriteoPublisherSdk.framework; path = CriteoPublisherSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AF6C5F7B1F3667B5394671D563DACF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		179D2D40088AA1E02F93C0F408AE2005 /* CriteoPublisherSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CriteoPublisherSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF6C5F7B1F3667B5394671D563DACF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2FE44B06E5B7B9E79EBBBE9184454864 /* CriteoPublisherSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CriteoPublisherSdk-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34845C5B023403AFA9A59BACF80B0C5C /* CriteoPublisherSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CriteoPublisherSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34845C5B023403AFA9A59BACF80B0C5C /* CriteoPublisherSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CriteoPublisherSdk.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		364D06A07869D7B3BDB252287E1A14EE /* Pods-CriteoPublisherSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CriteoPublisherSdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		3817A287DF7EC11C0547C6B0032305C5 /* Pods-CriteoPublisherSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CriteoPublisherSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E4294AE005849511D56A1956B4EB1D1 /* Pods-CriteoPublisherSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CriteoPublisherSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		499233230DD4FC668044699AB9510D55 /* Pods-CriteoPublisherSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CriteoPublisherSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4CDC5DB1D4D9225A537E037765DFE8A0 /* Pods-CriteoPublisherSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CriteoPublisherSdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		52AE6BB50988D96B254805B504314881 /* Pods_CriteoPublisherSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CriteoPublisherSdk_Tests.framework; path = "Pods-CriteoPublisherSdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AE6BB50988D96B254805B504314881 /* Pods_CriteoPublisherSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CriteoPublisherSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA594EE2D55EBABD50FC1B537175032 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CriteoPublisherSdk/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		94AB0837E810A0521C965D433D7E9786 /* CriteoPublisherSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CriteoPublisherSdk-umbrella.h"; sourceTree = "<group>"; };
 		9C70C731A5265812F7963E3514AF8C8D /* CriteoPublisherSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CriteoPublisherSdk-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B897FD128DB903BBA70A25CF02BF6851 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B897FD128DB903BBA70A25CF02BF6851 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C16745F2EDA068EC3A332B7BEBFA059F /* Pods-CriteoPublisherSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CriteoPublisherSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C96E663510E73BC2334EC82EACFD05A0 /* Pods-CriteoPublisherSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CriteoPublisherSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA8F4552097E22300378C55239B61273 /* CriteoPublisherSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CriteoPublisherSdk-Info.plist"; sourceTree = "<group>"; };
@@ -461,8 +461,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

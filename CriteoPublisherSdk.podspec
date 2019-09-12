@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CriteoPublisherSdk'
   s.version          = '3.1.0'
-  s.summary          = 'A short description of CriteoPublisherSdk.'
+  s.summary          = 'I am meaningful.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,9 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Julien Stoeffler' => 'j.stoeffler@criteo.com' }
-  s.source           = { :http => 'http://localhost/CriteoPublisherSdk-3.1.0.tar.gz' }
+  s.source           = { :http => 'https://dl.google.com/dl/cpdc/9ede8eedc8522a29/Google-Mobile-Ads-SDK-7.49.0.tar.gz' }
   # s.social_media_url = 'https://instagram.com/spathrose'
-  s.vendored_frameworks = 'Frameworks/CriteoPublisherSdk-Current/CriteoPublisherSdk.framework'
+  s.vendored_frameworks = 'Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework'
   s.ios.deployment_target = '8.0'
 
 

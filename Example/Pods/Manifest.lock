@@ -1,0 +1,16 @@
+PODS:
+  - CriteoPublisherSdk (0.1.0)
+
+DEPENDENCIES:
+  - CriteoPublisherSdk (from `../`)
+
+EXTERNAL SOURCES:
+  CriteoPublisherSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CriteoPublisherSdk: 06edfe3d6a2afdfaac34379e69ffaea1b6a4833a
+
+PODFILE CHECKSUM: bb1fd620bdf4bd92a16a72fc33671c425bb1fdac
+
+COCOAPODS: 1.7.5

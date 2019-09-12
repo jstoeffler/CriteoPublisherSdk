@@ -1,0 +1,6 @@
+framework module Pods_CriteoPublisherSdk_Tests {
+  umbrella header "Pods-CriteoPublisherSdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

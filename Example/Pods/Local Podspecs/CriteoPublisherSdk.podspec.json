@@ -1,0 +1,22 @@
+{
+  "name": "CriteoPublisherSdk",
+  "version": "0.1.0",
+  "summary": "A short description of CriteoPublisherSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Julien Stoeffler/CriteoPublisherSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Julien Stoeffler": "j.stoeffler@criteo.com"
+  },
+  "source": {
+    "git": "https://github.com/Julien Stoeffler/CriteoPublisherSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CriteoPublisherSdk/Classes/**/*"
+}
